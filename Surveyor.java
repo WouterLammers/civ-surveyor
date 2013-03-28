@@ -1,3 +1,4 @@
+//This code is not industry-strength! It is the result of a hack session.
 //package civ_surveyor;
 
 //import Constant.*;
@@ -10,9 +11,6 @@ import sdljava.image.*;
 
 /*
  * TODO:
- * rivers, special ocean squares?
- * when changing terrain, see if irrigation still holds
- * implement govs
  * implement summary for city
  */
 
@@ -53,6 +51,7 @@ public class Surveyor
 	{
 	}
 
+  // This and some of the others are huge. Don't ever do that in professional code.
 	private void draw()
 	{
 		int D = Constants.DIM;

@@ -1,3 +1,6 @@
+/*
+ * This code is not industry-strength! It is the result of a hack session.
+ */
 //package civ_surveyor;
 
 import sdljava.SDLException;
